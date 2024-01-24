@@ -1,4 +1,4 @@
-// Assuming you have a JSON array called 'data' containing the card information
+// Assuming you have a JSON array called 'datas' containing the card information
 const datas = [
   {
     name: "Teresa May",
