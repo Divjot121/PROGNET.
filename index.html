@@ -2,6 +2,15 @@
 <html lang="en">
   <html prefix="og: https://ogp.me/ns#">
     <head>
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2QC6248V0K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2QC6248V0K');
+</script>
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <link rel="stylesheet" href="css/color-theams.css" />
       <link rel="stylesheet" href="css/ripple-button.css" />
@@ -1033,73 +1042,34 @@
       <!-- chatbot code -->
 
       <!--   Chat Bot   -->
-      <div class="alan-btn"></div>
-      <script
-        type="text/javascript"
-        src="https://studio.alan.app/web/lib/alan_lib.min.js"
-      ></script>
-      <script>
-        var alanBtnInstance = alanBtn({
-          key: "3a41c2735a5252b764a5a62bdae65be32e956eca572e1d8b807a3e2338fdd0dc/stage",
-          left: "50px",
-          bottom: "50px",
-
-          onCommand: function (commandData) {
-            if (commandData && commandData.command === "openURL") {
-              if (commandData.target === "_blank") {
-                window.open(
-                  commandData.url,
-                  "_newtab" + Math.floor(Math.random() * 999999)
-                );
-              } else {
-                window.location.href = commandData.url;
-              }
-            }
-          },
-
-          rootEl: document.getElementById("alan-btn"),
-        });
-      </script>
-      <script>
-        // Get the input element and error message span
-        const avatarInput = document.getElementById("avatar");
-        const avatarError = document.getElementById("avatar-error");
-
-        // Add an event listener for input changes
-        avatarInput.addEventListener("input", function () {
-          // Get the entered URL
-          const url = avatarInput.value;
-
-          // Regular expression pattern for URL validation
-          // const urlPattern = /^(https?:\/\/)?([\w.]+)\.([a-z]{2,6}\.?)(\/[\w.]*)*\/?$/i;
-          const urlPattern =
-            /^(https?:\/\/)?([\w.]+)\.([a-z]{2,6}\.?)(\/[\w.]*)*(\?[\w=&-]*)?(#.*)?$/i;
-
-          // Check if the URL matches the pattern
-          if (urlPattern.test(url)) {
-            // Valid URL, clear the error message
-            avatarError.textContent = "";
-          } else {
-            // Invalid URL, display an error message
-            avatarError.textContent = "Please enter a valid URL";
-          }
-        });
-      </script>
-
-      <script>
-        const ratingInput = document.getElementById("rating");
-        const ratingError = document.getElementById("rating-error");
-
-        ratingInput.addEventListener("input", function () {
-          const rating = parseInt(ratingInput.value);
-
-          if (isNaN(rating) || rating < 1 || rating > 5) {
-            ratingError.textContent = "Please enter a rating between 1 and 5";
-          } else {
-            ratingError.textContent = "";
-          }
-        });
-      </script>
+      <!-- FILEPATH: /Users/sostech/Development/ProgNet/PROGNET - MAIN/index.html -->
+      <!-- BEGIN: ed8c6549bwf9 -->
+      <div id="botpress-webchat-container">
+        <script style="float: left;" src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+        <script style="float: left;">
+          window.botpressWebChat.init({
+              "composerPlaceholder": "Chat with PROGNET. Copilot",
+              "botConversationDescription": "This Bot Is Made By Divjot For PROGNET. Community. It can generate codes, write emails and much more",
+              "botId": "af39b584-544e-4b86-9887-af80b349543b",
+              "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+              "messagingUrl": "https://messaging.botpress.cloud",
+              "clientId": "af39b584-544e-4b86-9887-af80b349543b",
+              "webhookId": "6e2ea23a-d86f-43f2-92a1-eb58a14a1cb0",
+              "lazySocket": true,
+              "themeName": "prism",
+              "botName": "PROGNET. Copilot",
+              "avatarUrl": "https://ibb.co/k2z0YHj",
+              "phoneNumber": "+91 89684-13993",
+              "emailAddress": "aroradivjotsingh@gmail.com",
+              "website": "https://prognet.in/",
+              "frontendVersion": "v1",
+              "theme": "prism",
+              "themeColor": "#2563eb",
+              "restrictToTouchNavbar": true // Restrict the chatbot to the touch navbar
+          });
+        </script>
+      </div>
+      <!-- END: ed8c6549bwf9 -->
   
       <!-- PWA JS -->
       <script src="./pwa.js" defer></script>
