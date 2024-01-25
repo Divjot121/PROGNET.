@@ -2,7 +2,7 @@
 
 const startupImages = [
     {
-      href: 'images/opentek.webp',
+      href: 'images/prognet.webp',
       media: `
         (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait),
         (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape),
