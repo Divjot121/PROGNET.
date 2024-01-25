@@ -1420,15 +1420,6 @@ li {
   display: none;
 }
 
-#botpress-webchat-container {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 9999; /* Set a high z-index to ensure it appears on top */
-  transform: translate(0, 100%); /* Move it to the bottom */
-  transform: translateX(0); /* Move it to the left side */
-}
-
 #footer-btm i {
   color: var(--main-color);
 }

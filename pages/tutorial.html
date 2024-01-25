@@ -336,25 +336,29 @@
           type="text/javascript"
           src="https://studio.alan.app/web/lib/alan_lib.min.js"
         ></script>
+        
+        <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
         <script>
-          var alanBtnInstance = alanBtn({
-            key: "3a41c2735a5252b764a5a62bdae65be32e956eca572e1d8b807a3e2338fdd0dc/stage",
-            bottom: "50px",
-            left: "50px",
-
-            onCommand: function (commandData) {
-              if (commandData && commandData.command === "openURL") {
-                if (commandData.target === "_blank") {
-                  window.open(
-                    commandData.url,
-                    "_newtab" + Math.floor(Math.random() * 999999)
-                  );
-                } else {
-                  window.location.href = commandData.url;
-                }
-              }
-            },
-            rootEl: document.getElementById("alan-btn"),
+          window.botpressWebChat.init({
+              "composerPlaceholder": "Start With Hi To Start Conversation",
+              "botConversationDescription": "This Bot Is Made By Divjot For PROGNET. Community You can genereate codes, write emails and much more",
+              "botId": "af39b584-544e-4b86-9887-af80b349543b",
+              "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+              "messagingUrl": "https://messaging.botpress.cloud",
+              "clientId": "af39b584-544e-4b86-9887-af80b349543b",
+              "webhookId": "6e2ea23a-d86f-43f2-92a1-eb58a14a1cb0",
+              "lazySocket": true,
+              "themeName": "prism",
+              "botName": "PROGNET. Copilot",
+              "avatarUrl": "https://ibb.co/k2z0YHj",
+              "phoneNumber": "+91 89684-13993",
+              "emailAddress": "aroradivjotsingh@gmail.com",
+              "website": "https://prognet.in/",
+              "stylesheet": "https://webchat-styler-css.botpress.app/prod/code/3755273e-d254-4915-8ada-8f4f6e88de6a/v5073/style.css",
+              "frontendVersion": "v1",
+              "enableConversationDeletion": true,
+              "theme": "prism",
+              "themeColor": "#2563eb"
           });
         </script>
       </div>
