@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /server/
+Disallow: /node_modules/
+Disallow: /data/
+Disallow: /cdn-cgi/l/email-protection
+
+Sitemap: https://prognet.in/sitemap.xml
