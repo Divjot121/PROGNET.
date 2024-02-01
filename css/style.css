@@ -90,6 +90,9 @@ ol {
 #text-down {
   text-align: center;
   color: var(--main-color);
+  font-size: large;
+  width:auto;
+  height: auto;
 }
 
 p {
