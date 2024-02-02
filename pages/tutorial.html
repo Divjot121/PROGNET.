@@ -278,7 +278,10 @@
               </div>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-              <iframe style="padding-right: 50px;" width="400px" height="250px" src="https://www.youtube.com/embed/uegqVvQS9NU?si=-nG1ujF1xAoVoeLu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <a href="https://youtu.be/uegqVvQS9NU?si=1CBMQwCwnV_8DGQt">
+              <img style="padding-right: 40px;" width="400px" height="230px" src="images/Ep-1.webp">
+            </img>
+          </a>
             </div>
           </div>
         </div>
@@ -364,10 +367,8 @@
       ></script>
       <!-- Optional JavaScript -->
       <script defer src="../js/jquery-3.3.1.min.js"></script>
-      <script defer src="../js/bootstrap.min.js"></script>
       <script defer src="../js/slick.min.js"></script>
       <!-- <script defer src="../js/jquery.isotope.min"></script> -->
-      <script defer src="../js/circular.js"></script>
       <script defer src="../js/custom.js"></script>
       <script defer src="../js/tutorial.js"></script>
       <script defer src="../js/color-theam.js"></script>
@@ -378,19 +379,6 @@
             e.target.setAttribute("target", "blank");
           }
         });
-      </script>
-      <script>
-        var video_id = "VA770wpLX-Q";
-
-        $.getJSON(
-          "http://gdata.youtube.com/feeds/api/videos/" +
-            video_id +
-            "?v=2&alt=jsonc",
-          function (data, status, xhr) {
-            alert(data.data.title);
-            // data contains the JSON-Object below
-          }
-        );
       </script>
       <script>
         document.addEventListener("contextmenu", function(e){
