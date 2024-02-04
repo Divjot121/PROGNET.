@@ -12,6 +12,7 @@ html::-webkit-scrollbar-track {
   border: 1px solid black;
   background-color: #f5f5f5;
 }
+
 .fop-btm html::-webkit-scrollbar {
   width: 10px;
   background-color: #f5f5f5;
@@ -36,6 +37,7 @@ ol {
 html {
   overflow-x: hidden;
 }
+
 /*adding hover effect to home button*/
 
 a,
@@ -162,10 +164,8 @@ p {
   border-radius: 50%;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  -webkit-animation: jump-jump-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite
-    alternate;
-  animation: jump-jump-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite
-    alternate;
+  -webkit-animation: jump-jump-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+  animation: jump-jump-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
 }
 
 .dot-2 {
@@ -179,10 +179,8 @@ p {
   border-radius: 50%;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  -webkit-animation: jump-jump-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite
-    alternate;
-  animation: jump-jump-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite
-    alternate;
+  -webkit-animation: jump-jump-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+  animation: jump-jump-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
 }
 
 .dot-3 {
@@ -196,13 +194,12 @@ p {
   border-radius: 50%;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  -webkit-animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite
-    alternate;
-  animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite
-    alternate;
+  -webkit-animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+  animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
 }
 
 @-webkit-keyframes jump-jump-1 {
+
   0%,
   70% {
     -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
@@ -210,6 +207,7 @@ p {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   100% {
     -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
@@ -219,6 +217,7 @@ p {
 }
 
 @keyframes jump-jump-1 {
+
   0%,
   70% {
     -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
@@ -226,6 +225,7 @@ p {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   100% {
     -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
@@ -235,6 +235,7 @@ p {
 }
 
 @-webkit-keyframes jump-jump-2 {
+
   0%,
   40% {
     -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
@@ -242,6 +243,7 @@ p {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   100% {
     -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
@@ -251,6 +253,7 @@ p {
 }
 
 @keyframes jump-jump-2 {
+
   0%,
   40% {
     -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
@@ -258,6 +261,7 @@ p {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   100% {
     -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
@@ -267,6 +271,7 @@ p {
 }
 
 @-webkit-keyframes jump-jump-3 {
+
   0%,
   10% {
     -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
@@ -274,6 +279,7 @@ p {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   100% {
     -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
@@ -283,6 +289,7 @@ p {
 }
 
 @keyframes jump-jump-3 {
+
   0%,
   10% {
     -webkit-box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
@@ -290,6 +297,7 @@ p {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   100% {
     -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
@@ -337,9 +345,11 @@ p {
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(1.1, 1.1);
   }
+
   100% {
     transform: scale(1, 1);
   }
@@ -518,10 +528,12 @@ p {
 .navbar-light .navbar-nav .nav-link:focus {
   color: white;
 }
+
 /*Adding color to nav-item*/
-.nav-link{
+.nav-link {
   color: white;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
   color: var(--main-color);
 }
@@ -702,26 +714,22 @@ p {
   height: 140px;
   background: var(--main-color);
   z-index: -1;
-  -webkit-clip-path: polygon(
-    34% 32%,
-    64% 46%,
-    100% 31%,
-    100% 55%,
-    65% 70%,
-    33% 56%,
-    0 61%,
-    0 39%
-  );
-  clip-path: polygon(
-    34% 32%,
-    64% 46%,
-    100% 31%,
-    100% 55%,
-    65% 70%,
-    33% 56%,
-    0 61%,
-    0 39%
-  );
+  -webkit-clip-path: polygon(34% 32%,
+      64% 46%,
+      100% 31%,
+      100% 55%,
+      65% 70%,
+      33% 56%,
+      0 61%,
+      0 39%);
+  clip-path: polygon(34% 32%,
+      64% 46%,
+      100% 31%,
+      100% 55%,
+      65% 70%,
+      33% 56%,
+      0 61%,
+      0 39%);
   -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
   box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
 }
@@ -735,26 +743,22 @@ p {
   height: 140px;
   background: var(--main-color);
   z-index: -1;
-  -webkit-clip-path: polygon(
-    34% 32%,
-    64% 46%,
-    100% 31%,
-    100% 55%,
-    65% 70%,
-    33% 56%,
-    0 61%,
-    0 39%
-  );
-  clip-path: polygon(
-    34% 32%,
-    64% 46%,
-    100% 31%,
-    100% 55%,
-    65% 70%,
-    33% 56%,
-    0 61%,
-    0 39%
-  );
+  -webkit-clip-path: polygon(34% 32%,
+      64% 46%,
+      100% 31%,
+      100% 55%,
+      65% 70%,
+      33% 56%,
+      0 61%,
+      0 39%);
+  clip-path: polygon(34% 32%,
+      64% 46%,
+      100% 31%,
+      100% 55%,
+      65% 70%,
+      33% 56%,
+      0 61%,
+      0 39%);
   -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
   box-shadow: 0 31px 35px rgba(0, 0, 0, 0.1);
 }
@@ -917,6 +921,7 @@ p {
   background: var(--main-color);
   z-index: -1;
 }
+
 /* ************************** */
 
 .header-text h3 {
@@ -1080,6 +1085,7 @@ over-btn a i {
   border-radius: 50px;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
 }
+
 .about-txt button {
   padding: 14px 20px;
   background: var(--main-color);
@@ -1094,6 +1100,7 @@ over-btn a i {
 .about-txt a i {
   padding-left: 8px;
 }
+
 .about-txt button i {
   padding-left: 8px;
 }
@@ -1117,11 +1124,13 @@ over-btn a i {
   color: var(--main-color);
   background-color: transparent;
 }
+
 .about-txt button:hover {
   border: 2px solid var(--main-color);
   color: var(--main-color);
   background-color: transparent;
 }
+
 /* .form-group:hover {
   background-color: rgb(218, 12, 237);
 }
@@ -1190,12 +1199,12 @@ li {
 /*===========================
 *** Tutorial AREA START ***
 =============================*/
-.read{
+.read {
   color: var(--main-color);
   cursor: pointer;
 }
 
-#description{
+#description {
   width: 50vw;
   background-color: #101822;
   color: white;
@@ -1218,12 +1227,12 @@ li {
   cursor: pointer;
 }
 
-#vidpara{
+#vidpara {
   text-align: center;
 }
 
-#vidpara *{
- margin: 10px;
+#vidpara * {
+  margin: 10px;
 }
 
 /*===========================
@@ -1423,6 +1432,7 @@ li {
 #footer-btm i {
   color: var(--main-color);
 }
+
 @media (max-width: 990px) {
   footer .row {
     flex-direction: column;

@@ -4,14 +4,14 @@
   display: grid;
   grid-template-columns: repeat(1, 5fr);
   grid-gap: 20px;
-  
+
 }
 
 .website-card {
   margin: 0;
   background-color: #8797A5;
   border-radius: 10px;
- 
+
 }
 
 
@@ -20,15 +20,14 @@
   height: auto;
   border-radius: 10px;
   transition: 1s ease;
-  
+
 }
 
-.website-image:hover
-{
+.website-image:hover {
   -webkit-transform: scale(0.9);
--ms-transform: scale(0.9);
-transform: scale(0.9);
-transition: 1s ease;
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  transition: 1s ease;
 }
 
 .website-heading {
@@ -48,8 +47,7 @@ transition: 1s ease;
   color: #232C2F;
 }
 
-button
-{
+button {
   margin: 12px;
   padding: 5px;
   background-color: #CCCCCC;
@@ -58,27 +56,23 @@ button
   border: 2px solid #CCCCCC;
 }
 
-button a:active
-{
+button a:active {
   color: #232C2F;
 }
 
-button a:focus
-{
+button a:focus {
   outline: none;
 }
 
-button:hover{
-  background-color:#BFBFBF;
+button:hover {
+  background-color: #BFBFBF;
 }
 
-.website-link
-{
+.website-link {
   padding: 10px;
   color: #333333;
 }
 
-.website-link:hover
-{
+.website-link:hover {
   color: #FFFFFF;
 }

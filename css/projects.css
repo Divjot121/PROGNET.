@@ -89,12 +89,14 @@ img {
   align-items: center;
   gap: 2px;
 }
+
 .card-project-admin-name {
   color: #080c11;
   font-size: 14px;
   font-weight: 500;
   text-transform: capitalize;
 }
+
 .card-stack {
   color: #080c11;
   font-size: 16px;
@@ -107,12 +109,14 @@ img {
   border-radius: 8px;
   border: 1px solid black;
 }
+
 .card_text {
   color: #080c11;
   font-size: 0.8rem;
   line-height: 1.5;
   font-weight: 400;
 }
+
 .made_by {
   font-weight: 400;
   font-size: 13px;
@@ -191,6 +195,7 @@ img {
   padding: 10px 50px;
   font-size: 16px;
 }
+
 #shareBtn {
   letter-spacing: 2px;
   font-weight: 600;
@@ -389,20 +394,26 @@ img {
 
 .icon_container {
   /* margin-top: 20px; */
-  margin-left:50px;
-  display:flex;
+  margin-left: 50px;
+  display: flex;
   flex-direction: row;
 }
 
 .twitter-share-button {
   border-radius: 15px !important;
   margin-top: 20px;
-  background-color: #0d0b0b !important; /* Set the background color to your desired color */
-  border-radius: 5px; /* Adjust the border radius to create rounded corners */
-  padding: 8px 20px; /* Adjust the padding to create spacing inside the button */
-  display: inline-block; /* Ensure the button is displayed as an inline element */
-  color: white !important; /* Set the text color to white or any other color that suits your design */
-  text-decoration: none; /* Replace with your desired background color */
+  background-color: #0d0b0b !important;
+  /* Set the background color to your desired color */
+  border-radius: 5px;
+  /* Adjust the border radius to create rounded corners */
+  padding: 8px 20px;
+  /* Adjust the padding to create spacing inside the button */
+  display: inline-block;
+  /* Ensure the button is displayed as an inline element */
+  color: white !important;
+  /* Set the text color to white or any other color that suits your design */
+  text-decoration: none;
+  /* Replace with your desired background color */
   /* Optional: Add padding to the icon container for better visual appearance */
 }
 
@@ -411,16 +422,19 @@ img {
   transition: 0.3s ease-in-out;
   transform: scale(0.98);
 }
+
 .twitter-share-button i {
   margin-right: 8px;
 }
+
 .save_icon {
 
 
-  margin-top:200px;/* Adjust the margin-right value as needed */
+  margin-top: 200px;
+  /* Adjust the margin-right value as needed */
 }
 
-.bookmark{
-  margin-right: 20px; 
-  margin-top:10px;
+.bookmark {
+  margin-right: 20px;
+  margin-top: 10px;
 }
